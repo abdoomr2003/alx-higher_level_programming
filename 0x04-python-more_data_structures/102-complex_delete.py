@@ -2,9 +2,6 @@
 # -----------------------------------------------------------
 # Python program that:
 # demonstrates how to delete keys with a specific value in a dictionary
-#
-# (C) 2022 Igbinijesu Samuel, Lagos, Nigeria
-# email igbinijesusamuel@gmail.com
 # -----------------------------------------------------------
 
 
