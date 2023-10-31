@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-Module lazy_matrix_mul
+"""Module lazy_matrix_mul
 Matrix multiplication using NumPy.
 """
 import numpy
