@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module: 8-rectangle
-This is a rectangle class that inherit the BaseGeometry from the BaseGeometry class
+This is a rectangle class that inherit
+the BaseGeometry from the BaseGeometry class
 """
 
 

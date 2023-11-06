@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Module: 8-rectangle
-This is a rectangle class that inherit the BaseGeometry from the BaseGeometry class
+This is a rectangle class that inherit
+the BaseGeometry from the BaseGeometry class
 """
-
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
@@ -20,8 +20,6 @@ class Rectangle(BaseGeometry):
             - width
             - height
         """
-
-
         self.integer_validator("width", width)
         self.integer_validator("height", height)
         self.__width = width
