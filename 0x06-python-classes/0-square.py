@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Define a class called Square"""
+"""No module importing"""
 
 
 class Square:
-    """Represents an empty square."""
+    """empty class"""
     pass
