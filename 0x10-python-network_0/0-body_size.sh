@@ -1,9 +1,3 @@
 #!/bin/bash
-# Script to get the size of the body of a URL response in bytes
-
-URL=$1  # The first argument is the URL
-
-# Use curl to get the content-length header which contains the size of the body in bytes
-size=$(curl -s -I "$URL" | grep -i Content-Length | awk '{print $2}' | tr -d '\r')
-
-echo "$size"
+# Script that takes in a URL sends a request to it and displays the size of the body of the response
+curl -Is "$1" | grep -w 'Content-Length' | cut -f2 -d' '
