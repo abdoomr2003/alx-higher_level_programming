@@ -7,6 +7,6 @@
  * I'm not allowed to use var
  */
 exports.add = function (a, b) {
-        const c = a + b;
-        return c;
-}
+  const c = a + b;
+  return c;
+};
