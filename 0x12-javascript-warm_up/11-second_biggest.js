@@ -11,6 +11,5 @@ let argv = process.argv.slice(2);
 for (let i = 0; argv[i] !== undefined; i++) {
   argv[i] = Number(argv[i]);
 }
-console.log(argv.sort((a, b) => a - b));
 argv = Number(argv.sort((a, b) => a - b).slice(-2, -1));
 console.log(argv);
