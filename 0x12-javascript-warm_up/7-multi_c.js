@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 /**
  * This script prints x times “C is fun”
  * Where x is the first argument of the script.
