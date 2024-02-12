@@ -7,8 +7,7 @@
  */
 const argv = process.argv;
 if (argv[2] !== undefined) {
-  const sargv = argv.slice(2, 4);
-  console.log(sargv[0]);
+  console.log(argv[2]);
 } else {
   console.log('No argument');
 }
