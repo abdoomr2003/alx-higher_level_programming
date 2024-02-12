@@ -9,12 +9,7 @@
  */
 let argv = process.argv.slice(2);
 for (let i = 0; argv[i] !== undefined; i++) {
-  if (isNaN(Number(argv[i]))) {
-    delete argv[i];
-  } else {
-    argv[i] = Number(argv[i]);
-  }
+  argv[i] = Number(argv[i]);
 }
-argv.pop();
 argv = Number(argv.sort().slice(-2, -1));
 console.log(argv);
