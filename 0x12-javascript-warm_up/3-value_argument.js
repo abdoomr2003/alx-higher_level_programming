@@ -9,7 +9,7 @@
 const argv = process.argv;
 if (argv[2] !== undefined) {
   const sargv = argv.slice(2, 4);
-  console.log(sargv.join(' '));
+  console.log(sargv.join(''));
 } else {
   console.log('No argument');
 }
