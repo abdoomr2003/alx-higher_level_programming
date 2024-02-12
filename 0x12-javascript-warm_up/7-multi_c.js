@@ -9,11 +9,11 @@
  * I can use only two console.log.
  * I must use a loop (while, for, etc.).
  */
-const argv = Number(process.argv[2]);
+const argv = parseInt(process.argv[2]);
 if (isNaN(argv) === true) {
   console.log('Missing number of occurrences');
 } else {
-  for (let i = 1; i <= argv; i++) {
+  for (let i = 0; i < argv; i++) {
     console.log('C is fun');
   }
 }
