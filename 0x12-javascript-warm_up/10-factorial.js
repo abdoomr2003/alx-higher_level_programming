@@ -14,7 +14,7 @@ function factorial (a) {
   }
   return a * factorial((a - 1));
 }
-let a = Number(process.argv[2]);
+const a = Number(process.argv[2]);
 if (isNaN(a) === true) {
   console.log(1);
 } else {
