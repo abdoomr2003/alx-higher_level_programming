@@ -6,7 +6,7 @@
  * * A new list must be created with each value equal to the value of the initial list, multipled by the index in the list
  * * Print both the initial list and the new list
  */
-const {list} = require('./100-data');
+const list = require('./100-data').list;
 console.log(list);
 const newlist = list.map((value, index) => value * index);
 console.log(newlist);
