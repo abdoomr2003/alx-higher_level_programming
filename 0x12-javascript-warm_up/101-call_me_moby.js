@@ -5,8 +5,9 @@
  * Prototype: function (x, theFunction)
  * I'm not allowed to use var
  */
-exports.callMeMoby = (x, theFunction) => {
+const callMeMoby = (x, theFunction) => {
   for (let i = 0; i <= x; i++) {
     theFunction();
   }
 };
+exports.callMeMoby = callMeMoby;
