@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-import MySQLdb, mysql.connector.cursor
+"""
+Script that lists all states from the database hbtn_0e_0_usa
+"""
+import MySQLdb
+
 
 mydatabase_connect = MySQLdb.Connect(
     host="localhost", user="root", password="", database="hbtn_0e_0_usa"
